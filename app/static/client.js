@@ -29,7 +29,24 @@ function analyze() {
   xhr.onload = function(e) {
     if (this.readyState === 4) {
       var response = JSON.parse(e.target.responseText);
-      el("result-label").innerHTML = `Result = ${response["result"]}`;
+      var result = "";
+      switch (response["result"]) {
+        case "0" :
+          result = "0 弗氏海豚 (Lagenodelphis Hoset)";
+          break;
+        case "1" :
+          result = "1 花紋海豚 (Grampus Griseus)";
+          break;
+        case "2" :
+          result = "2 瓶鼻海豚 (Tursiops Truncatus)";
+          break;
+        case "3" :
+          result = "3 粉紅海豚 (Pink Dolphin";
+          break;
+        default :
+          result = "4 大西洋黑白海豚 (Cephalorhynchus Hectori)";
+      }
+      el("result-label").innerHTML = `Result = ${result}`;
     }
     el("analyze-button").innerHTML = "Analyze";
   };
