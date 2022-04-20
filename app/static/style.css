@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #ffe0e6;
 }
 
 .no-display {
@@ -11,13 +11,14 @@ body {
     padding: 10px 50px;
     text-align: center;
     font-size: 14px;
+    color: #ffafbd;
 }
 
 .title {
     font-size: 30px;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #262626;
+    color: #ff5171;
 }
 
 .content {
@@ -44,7 +45,7 @@ button.choose-file-button {
     height: 40px;
     border-radius: 2px;
     background-color: #ffffff;
-    border: solid 1px #7052CB;
+    border: solid 1px #ff5171;
     font-size: 13px;
     color: #7052CB;
 }
@@ -52,9 +53,9 @@ button.choose-file-button {
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
+    border: solid 1px #ff5171;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: #ff5171;
     font-size: 13px;
     color: #ffffff;
 }
