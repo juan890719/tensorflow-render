@@ -41,7 +41,7 @@ function analyze() {
           result = "2 瓶鼻海豚 (Tursiops Truncatus)";
           break;
         case "3" :
-          result = "3 粉紅海豚 (Pink Dolphin";
+          result = "3 粉紅海豚 (Pink Dolphin)";
           break;
         default :
           result = "4 大西洋黑白海豚 (Cephalorhynchus Hectori)";
